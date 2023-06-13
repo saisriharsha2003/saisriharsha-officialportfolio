@@ -5,3 +5,11 @@ body
     font-size: medium;
     /* text-align: center; */
 }
+#hr1
+{
+    border-radius: 0%;
+    border-top-style:groove;
+    border-width: 2px;
+    width: 100%;
+    
+}
