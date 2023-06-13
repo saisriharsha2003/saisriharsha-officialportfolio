@@ -38,3 +38,9 @@ ul
     display: inline-block;
     text-align:left;
 }
+img{
+    width: 170px;
+    height: 200px;
+    border-radius: 100%;
+
+ }
