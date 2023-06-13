@@ -32,3 +32,9 @@ th
 {
     color:deepskyblue;
 }
+ul
+{
+    
+    display: inline-block;
+    text-align:left;
+}
