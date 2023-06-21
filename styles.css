@@ -47,19 +47,21 @@ img{
     border-radius: 100%;
 
  }
-a:link{
-    color:var(background-color);
-    text-decoration: none;
+@media (prefers-color-scheme: dark) {
+    
+    a{
+      color: black;
+      text-decoration: none;
+    }
+    a:visited
+    {
+        color: black;
+    }
+    a:hover
+    {
+        color:red;
+    }
+    
 }
-a:visited
-{
-    color: purple;
-}
-a:hover
-{
-    color:red;
-}
-a:active
-{
-    color:var(background-color);
-}
+  
+
